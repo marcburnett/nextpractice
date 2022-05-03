@@ -4,6 +4,22 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: skyblue;   
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+nav a {
+  padding: 10px;
+  margin: 30px;
 }
 
 a {
@@ -13,4 +29,47 @@ a {
 
 * {
   box-sizing: border-box;
+  text-align: center;
+}
+
+footer {
+  display: inline-block;
+  height: 85px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+#index {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#single {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: aliceblue;
+}
+
+#list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
